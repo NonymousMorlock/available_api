@@ -47,7 +47,7 @@ async function startServer() {
 
     console.info('Connected to Database!');
 
-    server.listen(PORT, HOST, () => {
+    server.listen(PORT, () => {
       console.info(`Server listening on http://localhost:${PORT}`);
     });
   } catch (error) {
